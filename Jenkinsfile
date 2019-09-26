@@ -9,7 +9,7 @@ pipeline {
 //      agent { label 'nodejs-app' }
       agent {
         kubernetes {
-          label 'nodejs-app-pod'
+          label 'nodejs-app-pod-2'
           yamlFile 'nodejs-pod.yaml'
         }
       }
